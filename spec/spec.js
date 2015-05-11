@@ -1,4 +1,4 @@
-//var recBottles = require("../rec99Bottles.js");
+var recBottles = require("../rec99Bottles.js");
 //var bottles = require("../99Bottles.js");
 var sumRange = require("../sumOfRange.js");
 var recPowerVar = require("../recPower.js");
