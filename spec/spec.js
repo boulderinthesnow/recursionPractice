@@ -17,6 +17,10 @@ describe("recursive tests", function(){
 	xit("sum of 1,2,3 should return 6, -1,3,5 should return 7", function(){
 		expect(sumRange.CHANGEME([1,2,3])).toEqual(6);
 		expect(sumRange.CHANGEME([-1,3,5])).toEqual(7);
+	})		
+	it("fib(5) should return 5", function(){
+		expect(sumRange.CHANGEME(5)).toEqual(5);
+		expect(sumRange.CHANGEME([-1,3,5])).toEqual(7);
 	})	
 
 })

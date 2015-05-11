@@ -31,3 +31,15 @@ var TakeTwo = function(x) {
 }
 
 console.log(TakeTwo(3))
+
+
+
+
+
+
+
+
+
+
+
+
