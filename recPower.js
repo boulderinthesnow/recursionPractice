@@ -2,11 +2,11 @@ module.exports = {
 	 recPower: function(num,exp) {
 	 		return function newRecPower(num,exp) {
 				if (exp === 1) {
-					console.log ("base of", num, "to the", exp,"power --- AKA",num)
+				//	console.log ("base of", num, "to the", exp,"power --- AKA",num)
 				//	throw "a goose"
 					return num
 				} else {
-					console.log("handing back",num,'*', newRecPower(num,exp - 1))
+				//	console.log("handing back",num,'*', newRecPower(num,exp - 1))
 					return num * newRecPower(num,exp - 1);
 				} // end if statement
 
